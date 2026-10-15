@@ -20,7 +20,7 @@ in `<openFrameworks>/apps/myApps/ScreenSaver`.
 
 ## Controls
 
-- Left / Right arrow: previous / next scene
+- Left / Right arrow: previous / next scene (cycles Kim, Lee, Yong, then Lee again)
 - In the first scene: drag the mouse to emit particles, click to change their color
 
 ## Structure
