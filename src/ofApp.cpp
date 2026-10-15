@@ -1,11 +1,5 @@
 #include "ofApp.h"
 
-#include <Windows.h>
-#include <shellapi.h>
-
-#pragma comment(lib, "Shell32.lib")
-
-
 enum ApplicationStates {
 	KIM,
 	LEE,
@@ -19,9 +13,6 @@ int ApplicationState = ApplicationStates::KIM;
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-	font.load("arial.ttf", 32);
-	
-	
 	// Kim
 	kim.setup();
 	// Lee

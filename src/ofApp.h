@@ -30,8 +30,6 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
-		ofTrueTypeFont font;
-
 		ofApp_Kim kim;
 		ofApp_Lee lee;
 		ofApp_Yong yong;
