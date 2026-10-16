@@ -1,5 +1,7 @@
 # ScreenSaver
 
+Moved to games-2023/ScreenSaver (https://github.com/NaNIsaac/games-2023/tree/main/ScreenSaver). This repo is no longer maintained.
+
 A set of small particle and animation sketches written in C++ with openFrameworks.
 
 Hobby project from 2023, made together with two other contributors. Each person wrote one
