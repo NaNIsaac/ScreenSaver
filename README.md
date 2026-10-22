@@ -29,3 +29,21 @@ in `<openFrameworks>/apps/myApps/ScreenSaver`.
 
 - `src/main.cpp`, `src/ofApp.*` - window setup and scene switching
 - `src/Kim/`, `src/Lee/`, `src/Yong/` - one scene per contributor
+
+## Build status
+
+Not rebuilt on 2026-10-23: the project needs an openFrameworks tree around it (`ScreenSaver.vcxproj` and
+`ScreenSaver.sln` reference `..\..\..\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj`,
+and `$(OF_ROOT)`), and none was available on the machine used. The openFrameworks version is not recorded
+in the repository. The solution is in Visual Studio 15 format with toolset v142 and uses
+`ofSetupOpenGL`, which fits the 0.11.x releases; this is an inference from the project files, not
+something that was tried.
+
+## Contributors and origin
+
+Commits come from Isaac Yong and `culee1999` (the first commit, "수정 버전", is on the branch `rev_branch`).
+The scenes are named after their authors (`src/Kim`, `src/Lee`, `src/Yong`).
+
+This repository's history was imported into [games-2023](https://github.com/NaNIsaac/games-2023) as
+`ScreenSaver/` with `git subtree` (games-2023 commit `28feec7`, from commit `be99f8d` here). Apart from
+line endings, the files there are identical to this repository's.
