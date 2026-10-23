@@ -29,3 +29,29 @@ in `<openFrameworks>/apps/myApps/ScreenSaver`.
 
 - `src/main.cpp`, `src/ofApp.*` - window setup and scene switching
 - `src/Kim/`, `src/Lee/`, `src/Yong/` - one scene per contributor
+
+## Build from the command line
+
+Rebuilt on 2026-10-23 without source changes against openFrameworks 0.11.2
+(`of_v0.11.2_vs2017_release`, the last 0.11 release; picked because the solution is in Visual Studio 15
+format with toolset v142 and uses `ofSetupOpenGL`). With the repository at
+`<openFrameworks>\apps\myApps\ScreenSaver`, MSBuild from the Visual Studio 2022 Build Tools (MSVC 14.44)
+and the toolset overridden to v143, the openFrameworks library and the project built in 37 s with 0 errors
+and 512 warnings:
+
+```
+MSBuild ScreenSaver.sln -p:Configuration=Debug -p:Platform=x64 -p:PlatformToolset=v143 -m:4
+bin\ScreenSaver_debug.exe
+```
+
+openFrameworks and its prebuilt third-party DLLs are copied into `bin\` by the build. The window is
+1024x768. Other openFrameworks versions were not tried.
+
+## Contributors and origin
+
+Commits come from Isaac Yong and `culee1999` (the first commit, "수정 버전", is on the branch `rev_branch`).
+The scenes are named after their authors (`src/Kim`, `src/Lee`, `src/Yong`).
+
+This repository's history was imported into [games-2023](https://github.com/NaNIsaac/games-2023) as
+`ScreenSaver/` with `git subtree` (games-2023 commit `28feec7`, from commit `be99f8d` here). Apart from
+line endings, the files there are identical to this repository's.
