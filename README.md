@@ -49,8 +49,13 @@ openFrameworks and its prebuilt third-party DLLs are copied into `bin\` by the b
 
 ## Contributors and origin
 
-Commits come from Isaac Yong and `culee1999` (the first commit, "수정 버전", is on the branch `rev_branch`).
-The scenes are named after their authors (`src/Kim`, `src/Lee`, `src/Yong`).
+Three people made this in 2023, one scene each:
+
+- `src/Kim` - [kimnoa](https://github.com/kimnoa)
+- `src/Lee` - [culee1999](https://github.com/culee1999)
+- `src/Yong` - Isaac Yong ([NaNIsaac](https://github.com/NaNIsaac))
+
+The git history records Isaac Yong and `culee1999` only (the first commit, "수정 버전", is on the branch `rev_branch`).
 
 This repository's history was imported into [games-2023](https://github.com/NaNIsaac/games-2023) as
 `ScreenSaver/` with `git subtree` (games-2023 commit `28feec7`, from commit `be99f8d` here). Apart from
