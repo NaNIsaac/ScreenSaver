@@ -47,24 +47,24 @@ openFrameworks and its prebuilt third-party DLLs are copied into `bin\` by the b
 
 ## Contributors and origin
 
-Three people made this in 2023, one scene each, and the scene folders carry their names
-(`src/Kim`, `src/Lee`, `src/Yong`). Every commit on `main` was made by Isaac Yong; the one commit by
-`culee1999`, "수정 버전" (a revised version of the project), is the only commit on the branch
-`rev_branch`, which has no common history with `main` and was kept as it was.
+Three people made this in 2023, one scene each:
 
-This repository is the original. A copy of its `main` history is also part of
-[games-2023](https://github.com/NaNIsaac/games-2023) as `ScreenSaver/` (imported with `git subtree`,
-games-2023 commit `28feec7`, from commit `be99f8d` here); apart from line endings the files there are
-identical to this repository's.
+- `src/Kim` - [kimnoa](https://github.com/kimnoa)
+- `src/Lee` - [culee1999](https://github.com/culee1999)
+- `src/Yong` - [NaNIsaac](https://github.com/NaNIsaac)
+
+Every commit on `main` was made by NaNIsaac; the one commit by `culee1999`, "수정 버전" (a revised version of the
+project), is the only commit on the branch `rev_branch`, which has no common history with `main` and was kept as
+it was.
 
 ## License
 
-The code written by Isaac Yong is under the [MIT License](LICENSE): `src/Yong/`, `src/main.cpp`,
-`src/ofApp.*` and the Visual Studio project files (all other files were committed by Isaac Yong as well).
+The code written by NaNIsaac is under the [MIT License](LICENSE): `src/Yong/`, `src/main.cpp`,
+`src/ofApp.*` and the Visual Studio project files (all other files were committed by NaNIsaac as well).
 
 `src/Kim/` and `src/Lee/` are scenes written by the two other contributors, who keep their rights. No
-license from them is recorded in this repository, so the MIT License above is Isaac Yong's grant for his own
-files only and does not extend to those two folders. They stay here with their authors credited, in the
-same form in which they were published in games-2023.
+license from them is recorded in this repository, so the MIT License above is NaNIsaac's grant for his own
+files only and does not extend to those two folders. They stay here with their authors credited, as
+they were published.
 
 openFrameworks (MIT) is not part of this repository; it is installed separately (see Requirements).
