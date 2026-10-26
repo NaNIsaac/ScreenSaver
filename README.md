@@ -7,6 +7,12 @@ A set of small particle and animation sketches written in C++ with openFramework
 Hobby project from 2023, made together with two other contributors. Each person wrote one
 scene (`src/Kim`, `src/Lee`, `src/Yong`); `ofApp.cpp` switches between them.
 
+## Screenshots
+
+![Dragging the mouse emits particles](docs/media/screenshot-1.png) ![A later scene](docs/media/screenshot-2.png)
+
+![Short gameplay recording](docs/media/demo.gif)
+
 ## Requirements
 
 - Windows, Visual Studio 2019 or later (toolset v142)
