@@ -63,7 +63,7 @@ The code written by NaNIsaac is under the [MIT License](LICENSE): `src/Yong/`, `
 `src/ofApp.*` and the Visual Studio project files (all other files were committed by NaNIsaac as well).
 
 `src/Kim/` and `src/Lee/` are scenes written by the two other contributors, who keep their rights. No
-license from them is recorded in this repository, so the MIT License above is NaNIsaac's grant for his own
+license from them is recorded in this repository, so the MIT License above is NaNIsaac's grant for NaNIsaac's own
 files only and does not extend to those two folders. They stay here with their authors credited, as
 they were published.
 
