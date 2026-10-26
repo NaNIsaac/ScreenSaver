@@ -90,6 +90,7 @@ void Particle::draw() {
 
 
 
+//--------------------------------------------------------------
 void ofApp_Yong::setup(){
 	ofSetFrameRate(60);
 
@@ -115,6 +116,7 @@ void ofApp_Yong::setup(){
 
 }
 
+//--------------------------------------------------------------
 void ofApp_Yong::update(){
 
 	//Compute dt
@@ -154,9 +156,11 @@ void ofApp_Yong::update(){
 
 }
 
+//--------------------------------------------------------------
 void ofApp_Yong::draw(){
 	ofBackground(0, 0, 0);
 
+	//1. Drawing to buffer
 	fbo.begin();
 
 	//Draw semi-transparent white rectangle
@@ -179,52 +183,64 @@ void ofApp_Yong::draw(){
 
 	fbo.end();
 
+	//2. Draw buffer on the screen
 	ofSetColor(255, 255, 255);
 	fbo.draw(0, 0);
 
 	
 }
 
+//--------------------------------------------------------------
 void ofApp_Yong::keyPressed(int key){
 
 }
 
+//--------------------------------------------------------------
 void ofApp_Yong::keyReleased(int key){
 
 }
 
+//--------------------------------------------------------------
 void ofApp_Yong::mouseMoved(int x, int y ){
 
 }
 
+//--------------------------------------------------------------
 void ofApp_Yong::mouseDragged(int x, int y, int button){
 
 }
 
+//--------------------------------------------------------------
 void ofApp_Yong::mousePressed(int x, int y, int button){
 
 }
 
+//--------------------------------------------------------------
 void ofApp_Yong::mouseReleased(int x, int y, int button){
 
 }
 
+//--------------------------------------------------------------
 void ofApp_Yong::mouseEntered(int x, int y){
 
 }
 
+//--------------------------------------------------------------
 void ofApp_Yong::mouseExited(int x, int y){
 
 }
 
+//--------------------------------------------------------------
 void ofApp_Yong::windowResized(int w, int h){
 
 }
 
+//--------------------------------------------------------------
 void ofApp_Yong::gotMessage(ofMessage msg){
 
 }
 
+//--------------------------------------------------------------
 void ofApp_Yong::dragEvent(ofDragInfo dragInfo){
 
 }
