@@ -59,12 +59,6 @@ it was.
 
 ## License
 
-The code written by NaNIsaac is under the [MIT License](LICENSE): `src/Yong/`, `src/main.cpp`,
-`src/ofApp.*` and the Visual Studio project files (all other files were committed by NaNIsaac as well).
-
-`src/Kim/` and `src/Lee/` are scenes written by the two other contributors, who keep their rights. No
-license from them is recorded in this repository, so the MIT License above is NaNIsaac's grant for NaNIsaac's own
-files only and does not extend to those two folders. They stay here with their authors credited, as
-they were published.
+MIT License for the whole repository, Copyright (c) 2023-2026 NaNIsaac, culee1999 and kimnoa; see [LICENSE](LICENSE).
 
 openFrameworks (MIT) is not part of this repository; it is installed separately (see Requirements).
