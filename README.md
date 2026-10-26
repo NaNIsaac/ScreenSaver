@@ -5,6 +5,12 @@ A set of small particle and animation sketches written in C++ with openFramework
 Hobby project from 2023, made by a study group of three. Each person wrote one
 scene (`src/Kim`, `src/Lee`, `src/Yong`); `ofApp.cpp` switches between them.
 
+## Screenshots
+
+![Dragging the mouse emits particles](docs/media/screenshot-1.png) ![A later scene](docs/media/screenshot-2.png)
+
+![Short gameplay recording](docs/media/demo.gif)
+
 ## Requirements
 
 - Windows, Visual Studio 2019 or later (toolset v142)
@@ -26,7 +32,7 @@ in `<openFrameworks>/apps/myApps/ScreenSaver`.
 ## Structure
 
 - `src/main.cpp`, `src/ofApp.*` - window setup and scene switching
-- `src/Kim/`, `src/Lee/`, `src/Yong/` - one scene per contributor
+- `src/Kim/`, `src/Lee/`, `src/Yong/` - one scene per contributor (see License for who holds the rights)
 
 ## Build from the command line
 
@@ -53,7 +59,14 @@ Three people made this in 2023, one scene each:
 - `src/Lee` - [culee1999](https://github.com/culee1999)
 - `src/Yong` - [NaNIsaac](https://github.com/NaNIsaac)
 
-The git history records NaNIsaac and `culee1999` only (the first commit, "수정 버전", is on the branch
-`rev_branch`).
+Every commit on `main` was made by NaNIsaac; the one commit by `culee1999`, "수정 버전" (a revised version of the
+project), is the only commit on the branch `rev_branch`, which has no common history with `main` and was kept as
+it was.
 
 The study group's other repositories are listed in [ShootingGame](https://github.com/NaNIsaac/ShootingGame#2023-spring-study-group).
+
+## License
+
+MIT License for the whole repository, Copyright (c) 2023-2026 NaNIsaac, culee1999 and kimnoa; see [LICENSE](LICENSE).
+
+openFrameworks (MIT) is not part of this repository; it is installed separately (see Requirements).
