@@ -1,16 +1,13 @@
 #include "ofApp_Lee.h"
 
-//--------------------------------------------------------------
 void ofApp_Lee::setup(){
 	init(); // 값들 초기 상태로 바꿔주는 함수
 }
 
-//--------------------------------------------------------------
 void ofApp_Lee::update(){
 
 }
 
-//--------------------------------------------------------------
 void ofApp_Lee::draw(){
 	if (ApplicationState % 4 == 1)
 		screen_save(); // 화면보호기 1번 함수 호출
@@ -18,57 +15,46 @@ void ofApp_Lee::draw(){
 		screen_save2(); // 화면보호기 2번 함수 호출
 }
 
-//--------------------------------------------------------------
 void ofApp_Lee::keyPressed(int key){
 
 }
 
-//--------------------------------------------------------------
 void ofApp_Lee::keyReleased(int key){
 
 }
 
-//--------------------------------------------------------------
 void ofApp_Lee::mouseMoved(int x, int y ){
 
 }
 
-//--------------------------------------------------------------
 void ofApp_Lee::mouseDragged(int x, int y, int button){
 
 }
 
-//--------------------------------------------------------------
 void ofApp_Lee::mousePressed(int x, int y, int button){
 
 }
 
-//--------------------------------------------------------------
 void ofApp_Lee::mouseReleased(int x, int y, int button){
 
 }
 
-//--------------------------------------------------------------
 void ofApp_Lee::mouseEntered(int x, int y){
 
 }
 
-//--------------------------------------------------------------
 void ofApp_Lee::mouseExited(int x, int y){
 
 }
 
-//--------------------------------------------------------------
 void ofApp_Lee::windowResized(int w, int h){
 
 }
 
-//--------------------------------------------------------------
 void ofApp_Lee::gotMessage(ofMessage msg){
 
 }
 
-//--------------------------------------------------------------
 void ofApp_Lee::dragEvent(ofDragInfo dragInfo){ 
 
 }
