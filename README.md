@@ -55,3 +55,5 @@ Three people made this in 2023, one scene each:
 
 The git history records NaNIsaac and `culee1999` only (the first commit, "수정 버전", is on the branch
 `rev_branch`).
+
+The study group's other repositories are listed in [ShootingGame](https://github.com/NaNIsaac/ShootingGame#2023-spring-study-group).
