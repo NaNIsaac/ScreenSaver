@@ -1,10 +1,8 @@
 # ScreenSaver
 
-Moved to games-2023/ScreenSaver (https://github.com/NaNIsaac/games-2023/tree/main/ScreenSaver). This repo is no longer maintained.
-
 A set of small particle and animation sketches written in C++ with openFrameworks.
 
-Hobby project from 2023, made together with two other contributors. Each person wrote one
+Hobby project from 2023, made by a study group of three. Each person wrote one
 scene (`src/Kim`, `src/Lee`, `src/Yong`); `ofApp.cpp` switches between them.
 
 ## Requirements
@@ -53,10 +51,7 @@ Three people made this in 2023, one scene each:
 
 - `src/Kim` - [kimnoa](https://github.com/kimnoa)
 - `src/Lee` - [culee1999](https://github.com/culee1999)
-- `src/Yong` - Isaac Yong ([NaNIsaac](https://github.com/NaNIsaac))
+- `src/Yong` - [NaNIsaac](https://github.com/NaNIsaac)
 
-The git history records Isaac Yong and `culee1999` only (the first commit, "수정 버전", is on the branch `rev_branch`).
-
-This repository's history was imported into [games-2023](https://github.com/NaNIsaac/games-2023) as
-`ScreenSaver/` with `git subtree` (games-2023 commit `28feec7`, from commit `be99f8d` here). Apart from
-line endings, the files there are identical to this repository's.
+The git history records NaNIsaac and `culee1999` only (the first commit, "수정 버전", is on the branch
+`rev_branch`).
